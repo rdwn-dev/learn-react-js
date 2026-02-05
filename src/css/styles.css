@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-content {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.img-profile {
+  height: 300px;
+  width: 250px;
+  /* margin-bottom: 16px; */
+}
+
+.profile-card {
+  margin-bottom: 24px;
+  line-height: 32px;
+}
