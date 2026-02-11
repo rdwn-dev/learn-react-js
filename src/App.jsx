@@ -4,8 +4,12 @@ import Account from "./components/Account";
 import Counter from "./practice/CounterApp";
 import Sapa from "./practice/InputState";
 import { ToggleStatus } from "./practice/ToggleStatus";
-import { User } from "./exercise/Login";
-import { Mahasiswa } from "./exercise/Mahasiswa";
+import { User } from "./state-event/Login";
+import { Mahasiswa } from "./state-event/Mahasiswa";
+import { Messages } from "./conditional-rendering/LogginMessage";
+import { Role } from "./conditional-rendering/RoleUser";
+import { LoginStatus } from "./conditional-rendering/LoginStatus";
+import { AgeChecker } from "./conditional-rendering/AgeChecker";
 
 function App() {
   return (
@@ -32,6 +36,12 @@ function App() {
         {/* Form Sederhana */}
         <Mahasiswa />
       </div>
+
+      {/* Condotional Rendering */}
+      <Messages />
+      <Role />
+      <LoginStatus />
+      <AgeChecker age={18} />
     </div>
   );
 }
