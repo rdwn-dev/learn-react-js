@@ -19,3 +19,13 @@
   margin-bottom: 24px;
   line-height: 32px;
 }
+
+/* Counter App */
+.counter {
+  margin-top: 32px;
+}
+.button-plus,
+.button-minus {
+  margin: 8px;
+  padding: 8px 24px;
+}
